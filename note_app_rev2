@@ -1,0 +1,10 @@
+lists = []
+def x():
+  prompt = input("Enter a note here: ")
+  lists.append(prompt)
+  for list in lists:
+    print(list)
+while True:
+  x()
+  
+  
